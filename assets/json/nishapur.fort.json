@@ -1,0 +1,160 @@
+{
+  "segments": [
+    {
+      "x": 7,
+      "y": 6,
+      "type": "tower",
+      "entranceX": 8,
+      "entranceY": 7
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 8,
+      "entranceY": 7
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "type": "gate",
+      "entranceX": 9,
+      "entranceY": 6
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 7
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "type": "gate",
+      "entranceX": 11,
+      "entranceY": 6
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 7
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "type": "tower",
+      "entranceX": 12,
+      "entranceY": 7
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "type": "gate",
+      "entranceX": 12,
+      "entranceY": 8
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 9
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 10
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 11
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "type": "tower",
+      "entranceX": 12,
+      "entranceY": 11
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "type": "wall",
+      "entranceX": 11,
+      "entranceY": 11
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "type": "gate",
+      "entranceX": 11,
+      "entranceY": 11
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 11
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "type": "gate",
+      "entranceX": 9,
+      "entranceY": 11
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "type": "wall",
+      "entranceX": 8,
+      "entranceY": 11
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "type": "tower",
+      "entranceX": 8,
+      "entranceY": 11
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "type": "tower",
+      "entranceX": 8,
+      "entranceY": 10
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 8,
+      "entranceY": 9
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "type": "wall",
+      "entranceX": 8,
+      "entranceY": 8
+    },
+
+
+    {
+      "x": 7,
+      "y": 7,
+      "type": "gate",
+      "entranceX": 8,
+      "entranceY": 8
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "armyTemplates": {
+    "0": {
+      "id": "0",
+      "name": "Mongolian Tumen",
+      "units": [
+        ["Mongolian light cavalry"],
+        ["Mongolian light cavalry"],
+        ["Mongolian light cavalry", "Heavy cavalry"],
+        ["Mongolian light cavalry", "Captives"]
+      ]
+    },
+    "1": {
+      "id": "1",
+      "name": "Feudal Army",
+      "units": [
+        ["Heavy cavalry"],
+        ["Heavy cavalry", "Light cavalry", "Pikemen"],
+        ["Heavy cavalry", "Archers", "Pikemen"],
+        ["Heavy cavalry", "Archers", "Elephants"],
+        ["Archers", "Pikemen"],
+        ["Archers", "Pikemen"]
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Siege Infantry",
+      "units": [
+        ["Archers", "Pikemen", "Swordsmen"],
+        ["Archers", "Pikemen", "Swordsmen"],
+        ["Archers", "Pikemen", "Swordsmen", "Cannon", "Catapult"],
+        ["Archers", "Pikemen", "Swordsmen", "Cannon", "Catapult"]
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Arabian Cavalry",
+      "units": [
+        ["Elephants", "Camel riders"],
+        ["Camel riders"],
+        ["Camel riders"],
+        ["Camel riders"],
+        ["Archers", "Pikemen"],
+        ["Archers", "Pikemen"]
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "Indian Army",
+      "units": [
+        ["Elephants"],
+        ["Elephants", "Light cavalry"],
+        ["Elephants", "Light cavalry"],
+        ["Archers", "Swordsmen"],
+        ["Archers", "Swordsmen"]
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "Steppe Horde",
+      "units": [["Light cavalry"]]
+    }
+  }
+}

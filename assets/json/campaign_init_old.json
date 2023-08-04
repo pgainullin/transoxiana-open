@@ -1,0 +1,390 @@
+{
+  "nations": [
+    {
+      "name": "Independent",
+      "color": "0xFF8f8b74",
+      "armyTemplates": [1],
+      "isIndependent": true
+    },
+    {
+      "name": "Mongol Empire",
+      "color": "0xFF991111",
+      "takeCaptives": true,
+      "specialUnits": [10],
+      "armyTemplates": [0],
+      "playable": true
+    },
+    {
+      "name": "Khwarezmid Empire",
+      "color": "0xFF111191",
+      "specialUnits": [4],
+      "armyTemplates": [1, 2],
+      "playable": true
+    },
+    {
+      "name": "Qara Khitai",
+      "specialUnits": [2, 0],
+      "armyTemplates": [1, 2, 5],
+      "color": "0xFF000000"
+    },
+    {
+      "name": "Delhi Sultanate",
+      "specialUnits": [8],
+      "armyTemplates": [4],
+      "color": "0xFFdce305"
+    },
+    {
+      "name": "Abbasid Caliphate",
+      "specialUnits": [9],
+      "armyTemplates": [3],
+      "color": "0xFF32908f"
+    },
+    {
+      "name": "Kingdom of Georgia",
+      "specialUnits": [4],
+      "armyTemplates": [1],
+      "color": "0xFFFFFFFF"
+    },
+    {
+      "name": "Cumans",
+      "color": "0xFFee6352",
+      "specialUnits": [2],
+      "armyTemplates": [5],
+      "takeCaptives": true
+    },
+    {
+      "name": "Kipchaks",
+      "color": "0xFF003459",
+      "specialUnits": [2],
+      "armyTemplates": [5],
+      "takeCaptives": true
+    },
+    {
+      "name": "Chernigov Principality",
+      "specialUnits": [6],
+      "armyTemplates": [1, 2],
+      "color": "0xFF5013c2"
+    },
+    {
+      "name": "Ryazan Principality",
+      "specialUnits": [6],
+      "armyTemplates": [1, 2],
+      "color": "0xFFDE5304"
+    },
+    {
+      "name": "Kiev Principality",
+      "specialUnits": [6],
+      "armyTemplates": [1, 2],
+      "color": "0xFFe3b505"
+    },
+    {
+      "name": "Nicean Empire",
+      "specialUnits": [4],
+      "armyTemplates": [1, 2],
+      "color": "0xFF72195a"
+    }
+  ],
+  "diplomaticRelationships": [
+    [-1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1],
+    [0, -1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 0, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1],
+    [0, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1],
+    [0, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 2, 1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 2, -1, 1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1]
+  ],
+  "armies": [
+    {
+      "name": "Second Tumen",
+      "commander": {
+        "name": "Jochi",
+        "birthYear": 1182,
+        "moraleBoostMultiple": 1.2,
+        "moraleRange": 3,
+        "attritionMultiple": 0.85,
+        "unitMeleeBonus": 1.2,
+        "unitRangedBonus": 1.2
+      },
+      "nation": 1,
+      "units": [10, 10, 10, 10, 10, 1, 1, 11, 11],
+      "province": "Hoboksar"
+    },
+    {
+      "name": "First Tumen",
+      "commander": {
+        "name": "Genghis Khan",
+        "birthYear": 1158,
+        "moraleBoostMultiple": 1.2,
+        "moraleRange": 4,
+        "attritionMultiple": 0.75,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.2
+      },
+      "nation": 1,
+      "units": [10, 10, 10, 10, 10, 10, 1, 1, 1],
+      "province": "Altai"
+    },
+    {
+      "name": "Jalal ad-Din",
+      "commander": {
+        "name": "Jalal ad-Din Mingburnu",
+        "birthYear": 1199,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 0.95,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.0
+      },
+      "nation": 2,
+      "units": [4, 4, 6, 6, 6, 6, 7, 7],
+      "province": "Turbat-i Jam"
+    },
+    {
+      "name": "Qazvin Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Qazvin"
+    },
+    {
+      "name": "Samarkand Garrison",
+      "nation": 2,
+      "units": [6, 6, 6, 6, 7, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Samarkand"
+    },
+    {
+      "name": "Bukhara Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Bukhara"
+    },
+    {
+      "name": "Khiva Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Khiva"
+    },
+    {
+      "name": "Merv Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Merv"
+    },
+    {
+      "name": "Nishapur Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Nishapur"
+    },
+    {
+      "name": "Tabriz Garrison",
+      "nation": 2,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Tabriz"
+    },
+    {
+      "name": "Qara Khitai Army",
+      "commander": {
+        "name": "Kuchlug",
+        "birthYear": 1170,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 0.85,
+        "unitMeleeBonus": 1.2,
+        "unitRangedBonus": 1.1
+      },
+      "nation": 3,
+      "units": [4, 2, 2, 2, 2],
+      "province": "Balasaghun"
+    },
+    {
+      "name": "Balasaghun Garrison",
+      "nation": 3,
+      "units": [6, 0, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Balasaghun"
+    },
+    {
+      "name": "Uzgend Garrison",
+      "nation": 3,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Uzgend"
+    },
+    {
+      "name": "Kashgar Garrison",
+      "nation": 3,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Kashgar"
+    },
+    {
+      "name": "Delhi Army",
+      "commander": {
+        "name": "Shams ud-Din Iltutmish",
+        "birthYear": 1180,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 1.0,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.1
+      },
+      "nation": 4,
+      "units": [8, 8, 6, 6, 6, 6, 7, 7, 7],
+      "province": "Srinagar"
+    },
+    {
+      "name": "Abbasid Army",
+      "nation": 5,
+      "units": [9, 9, 9, 9, 9, 9, 9],
+      "siegeMode": false,
+      "province": "Mosul"
+    },
+    {
+      "name": "Georgian Army",
+      "commander": {
+        "name": "Queen Tamar",
+        "birthYear": 1160,
+        "moraleBoostMultiple": 1.5,
+        "moraleRange": 4,
+        "attritionMultiple": 0.95,
+        "unitMeleeBonus": 1.5,
+        "unitRangedBonus": 1.0
+      },
+      "nation": 6,
+      "units": [4, 4, 4, 7, 7],
+      "siegeMode": false,
+      "province": "Erivan"
+    },
+    {
+      "name": "Tiflis Garrison",
+      "nation": 6,
+      "units": [6, 7],
+      "siegeMode": true,
+      "mode": 4,
+      "province": "Tiflis"
+    },
+    {
+      "name": "Cuman Host",
+      "nation": 7,
+      "units": [2, 2, 2, 2, 2, 2, 2],
+      "siegeMode": false,
+      "province": "Golden Hills"
+    },
+    {
+      "name": "Kipchak Host",
+      "nation": 8,
+      "units": [2, 2, 2, 2, 2, 2, 2],
+      "siegeMode": false,
+      "province": "Nurtay"
+    },
+    {
+      "name": "Ryazan Army",
+      "nation": 10,
+      "units": [4, 4, 6, 6, 6, 6, 7],
+      "siegeMode": false,
+      "province": "Putivil"
+    },
+    {
+      "name": "Chernigov Army",
+      "nation": 9,
+      "units": [4, 4, 6, 6, 6, 7],
+      "siegeMode": false,
+      "province": "Chernigov"
+    },
+    {
+      "name": "Kiev Army",
+      "nation": 11,
+      "units": [4, 6, 6, 6, 7, 7],
+      "siegeMode": false,
+      "province": "Cherkasy"
+    },
+    {
+      "name": "Nicean Army",
+      "nation": 12,
+      "units": [4, 4, 4, 6, 6, 6, 7, 7],
+      "siegeMode": false,
+      "province": "Paphlagonia"
+    }
+  ],
+  "parameters": {
+    "name": "The Mongol Conquest of Khwarezm",
+    "startYear": 1216,
+    "startSeason": 0,
+    "image": "strategic_map.jpg"
+  },
+  "locales": {
+    "en_GB": {
+      "campaignTitle": "The Mongol Conquest of *Khwarezm*",
+      "menuIntroText": "The year is 1216 and the *Mongol Empire* is on the rise. The Jin dynasty is in disarray in China and the great *Genghis Khan* has turned his attention west towards Qara Khitai, now ruled by the fleeing Naiman prince Kuchlug and the riches of the *Khwarezmid Empire*.",
+      "objectiveText0": "Destroy all Khwarezmid armies",
+      "objectiveText1": "Destroy all Mongol armies"
+    }
+  },
+  "events": [
+    {
+      "nation": 1,
+      "triggered": false,
+      "condition": {
+        "type": 4,
+        "nationsToCapture": [],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": [
+          {
+            "type": 2,
+            "nationsToCapture": [],
+            "armiesToKill": [],
+            "provincesToCapture": ["Balasaghun"],
+            "subconditions": []
+          },
+          {
+            "type": 3,
+            "nationsToCapture": [],
+            "armiesToKill": [10],
+            "provincesToCapture": [],
+            "subconditions": []
+          }
+        ]
+      },
+      "consequence": {
+        "type": 4,
+        "otherNation": null,
+        "otherConsequences": [
+          {
+            "type": 5,
+            "otherNation": 2,
+            "otherConsequences": []
+          },
+          {
+            "type": 6,
+            "otherNation": 3,
+            "otherConsequences": []
+          }
+        ]
+      }
+    }
+  ]
+}

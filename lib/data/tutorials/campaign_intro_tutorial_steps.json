@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Help",
+    "description": "Press this button to return to this tutorial at any time. Long-press buttons to get captions.",
+    "svgSrc": "",
+    "alignment": "Alignment.bottomRight",
+    "enumAction": "CampaignIntroTutorialActions.mapUiHelpButton",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": false,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaignButtonsIntro",
+    "order": 0
+  },
+  {
+    "title": "Information panel",
+    "description": "Press this button to manage selected armies and provinces. The menu will open automatically if you select an army.",
+    "svgSrc": "",
+    "alignment": "Alignment.bottomRight",
+    "enumAction": "CampaignIntroTutorialActions.mapUiInfoButton",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaignButtonsIntro",
+    "order": 1
+  },
+  {
+    "title": "Status panel",
+    "description": "This shows the current season and year. Seasons affect resources (provisions are only harvested in Autumn) and weather (probabilities of rain and snow). One season is equal to one turn on the campaign map.",
+    "svgSrc": "",
+    "alignment": "Alignment.topCenter",
+    "enumAction": "CampaignIntroTutorialActions.mapUiStatusPanel",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaignButtonsIntro",
+    "order": 2
+  },
+  {
+    "title": "Next turn and turn mechanics",
+    "description": "The game uses a hybrid turn system where all orders are given in turn-based mode and executed in real-time. Once you have given your orders press this button to end your turn and see the orders being executed by your armies. Real time sequence will stop automatically after 6 seconds.",
+    "svgSrc": "",
+    "alignment": "Alignment.topLeft",
+    "enumAction": "CampaignIntroTutorialActions.mapUiNextTurnButton",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaignButtonsIntro",
+    "order": 4,
+    "resetTutorialModePointers": false
+  }
+]

@@ -1,0 +1,135 @@
+name: transoxiana
+description: Transoxiana Game
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+publish_to: none
+
+version: 1.0.0+4
+
+environment:
+  sdk: ">=2.17.0 <3.3.3"
+
+dependencies:
+  collection: ^1.16.0
+  meta: ^1.7.0
+  dotted_border: ^2.0.0
+  equatable: ^2.0.3
+  flame: 1.4.0
+  flame_audio: 1.0.0
+  flame_splash_screen: 0.1.0
+  flutter:
+    sdk: flutter
+  flutter_gifimage: ^1.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.0.3
+  http: ^0.13.4
+  #   integration_test:
+  intl: ^0.17.0
+  json_annotation: ^4.4.0
+  ordered_set: ^5.0.0
+  quiver: ^3.0.1+1
+  shared_preferences: ^2.0.13
+  simple_rich_text: ^2.0.49
+  states_rebuilder: ^6.0.0
+  super_tooltip: ^1.0.1
+  # TODO: test it Svg to path parser
+  # https://pub.dev/packages/svg_path_parser
+  svg_path_parser: ^1.1.1
+  tiled: 0.6.0
+  universal_io: ^2.0.4
+  uuid: ^3.0.6
+  tutorial:
+    path: packages/tutorial
+  utils:
+    path: packages/utils
+  url_launcher: ^6.1.7
+
+dev_dependencies:
+  assets_preprocessor:
+    path: packages/assets_preprocessor
+  build_runner: ^2.1.7
+  dependency_validator: ^3.0.0
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.1.4
+  vector_math: ^2.1.1
+#  integration_test:
+#    sdk: flutter
+dependency_overrides:
+  #  These are needed to support the version of audioplayers
+  #  that has a volume change fix needed to implement fade in/out on iOS properly
+  audioplayers: ^0.20.1
+  archive: ^3.3.0
+  xml: ^6.0.1
+  #  audioplayers: "0.18.3"
+  json_annotation: ^4.4.0
+  # uuid: ^3.0.4
+  convert: ^3.0.1
+  crypto: ">=3.0.0"
+  args: ^2.3.1
+  meta: ^1.7.0
+  path_provider_windows: ^2.0.5
+  path_provider_platform_interface: ^2.0.4
+  path_provider: ^2.0.10
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+    - assets/images/ui/
+    - assets/images/ui/backgrounds/
+    - assets/images/ui/icons/
+    - assets/images/ui/raster/
+    - assets/images/walls/
+    - assets/images/units/
+    - assets/images/provinces/
+    - assets/images/weather/
+    - assets/tiles/
+    - assets/images/tileset/
+    - assets/images/tileset/elements/
+    - assets/images/tileset/terrain/
+    - assets/images/tileset/roads_bridges/
+    - assets/audio/music/
+    - assets/audio/sfx/
+    - assets/json/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Quattrocento
+      fonts:
+        - asset: assets/fonts/quattrocento_regular.ttf
+        - asset: assets/fonts/quattrocento_bold.ttf
+          weight: 700
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+flutter_intl:
+  enabled: true
+  main_locale: en_GB

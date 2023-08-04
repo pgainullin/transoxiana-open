@@ -1,0 +1,32 @@
+# Defines a default set of lint rules enforced for
+# For details and rationale,
+# see https://pub.dev/packages/lint
+include: package:flutter_lints/flutter.yaml
+# For lint rules and documentation, see http://dart-lang.github.io/linter/lints.
+# Uncomment to specify additional rules.
+# linter:
+#   rules:
+#     - camel_case_types
+
+analyzer:
+  exclude:
+    - "**/generated"
+    - "old_lib/"
+  #   exclude:
+  #     - path/to/excluded/files/**
+  errors:
+    avoid_void_async: error
+    unawaited_futures: error
+
+linter:
+  rules:
+    require_trailing_commas: true
+    flutter_style_todos: true
+    join_return_with_assignment: true
+    avoid_void_async: true
+    avoid_setters_without_getters: true
+    avoid_returning_this: true
+    avoid_returning_null: true
+    avoid_redundant_argument_values: true
+    sort_constructors_first: true
+    always_put_required_named_parameters_first: true

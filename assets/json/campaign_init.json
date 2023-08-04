@@ -1,0 +1,1571 @@
+{
+  "nations": {
+    "independent": {
+      "id": "independent",
+      "name": "Independent",
+      "color": "0xFF8f8b74",
+      "armyTemplates": [
+        "1"
+      ],
+      "isIndependent": true
+    },
+    "mongol_empire": {
+      "id": "mongol_empire",
+      "name": "Mongol Empire",
+      "color": "0xFF991111",
+      "takeCaptives": true,
+      "specialUnits": [
+        "Mongolian light cavalry"
+      ],
+      "armyTemplates": [
+        "0"
+      ],
+      "isPlayable": true
+    },
+    "khwarezmid_empire": {
+      "id": "khwarezmid_empire",
+      "name": "Khwarezmid Empire",
+      "color": "0xFF111191",
+      "specialUnits": [
+        "Heavy cavalry"
+      ],
+      "armyTemplates": [
+        "1",
+        "2"
+      ],
+      "isPlayable": true
+    },
+    "qara_khitai": {
+      "id": "qara_khitai",
+      "name": "Qara Khitai",
+      "specialUnits": [
+        "Light cavalry",
+        "Cannon"
+      ],
+      "armyTemplates": [
+        "1",
+        "2",
+        "5"
+      ],
+      "color": "0xFF000000"
+    },
+    "delhi_sultanate": {
+      "id": "delhi_sultanate",
+      "name": "Delhi Sultanate",
+      "specialUnits": [
+        "Elephants"
+      ],
+      "armyTemplates": [
+        "4"
+      ],
+      "color": "0xFFdce305"
+    },
+    "abbasid_caliphate": {
+      "id": "abbasid_caliphate",
+      "name": "Abbasid Caliphate",
+      "specialUnits": [
+        "Camel riders"
+      ],
+      "armyTemplates": [
+        "3"
+      ],
+      "color": "0xFF32908f"
+    },
+    "kingdom_of_georgia": {
+      "id": "kingdom_of_georgia",
+      "name": "Kingdom of Georgia",
+      "specialUnits": [
+        "Heavy cavalry"
+      ],
+      "armyTemplates": [
+        "1"
+      ],
+      "color": "0xFFFFFFFF"
+    },
+    "cumans": {
+      "id": "cumans",
+      "name": "Cumans",
+      "color": "0xFFee6352",
+      "specialUnits": [
+        "Light cavalry"
+      ],
+      "armyTemplates": [
+        "5"
+      ],
+      "takeCaptives": true
+    },
+    "kipchaks": {
+      "id": "kipchaks",
+      "name": "Kipchaks",
+      "color": "0xFF003459",
+      "specialUnits": [
+        "Light cavalry"
+      ],
+      "armyTemplates": [
+        "5"
+      ],
+      "takeCaptives": true
+    },
+    "chernigov_principality": {
+      "id": "chernigov_principality",
+      "name": "Chernigov Principality",
+      "specialUnits": [
+        "Pikemen"
+      ],
+      "armyTemplates": [
+        "1",
+        "2"
+      ],
+      "color": "0xFF5013c2"
+    },
+    "ryazan_principality": {
+      "id": "ryazan_principality",
+      "name": "Ryazan Principality",
+      "specialUnits": [
+        "Pikemen"
+      ],
+      "armyTemplates": [
+        "1",
+        "2"
+      ],
+      "color": "0xFFDE5304"
+    },
+    "kiev_principality": {
+      "id": "kiev_principality",
+      "name": "Kiev Principality",
+      "specialUnits": [
+        "Pikemen"
+      ],
+      "armyTemplates": [
+        "1",
+        "2"
+      ],
+      "color": "0xFFe3b505"
+    },
+    "nicean_empire": {
+      "id": "nicean_empire",
+      "name": "Nicean Empire",
+      "specialUnits": [
+        "Heavy cavalry"
+      ],
+      "armyTemplates": [
+        "1",
+        "2"
+      ],
+      "color": "0xFF72195a"
+    },
+    "golden_horde": {
+      "id": "golden_horde",
+      "name": "Golden Horde",
+      "color": "0xFFf7b538",
+      "takeCaptives": true,
+      "specialUnits": [
+        "Mongolian light cavalry"
+      ],
+      "armyTemplates": [
+        "0"
+      ],
+      "isDefeated": true,
+      "isPlayable": false
+    }
+  },
+  "diplomaticRelationships": {
+    "independent": {
+      "independent": "peace",
+      "mongol_empire": "war",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "war",
+      "kipchaks": "war",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "mongol_empire": {
+      "independent": "war",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "war",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "khwarezmid_empire": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "qara_khitai": {
+      "independent": "peace",
+      "mongol_empire": "war",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "delhi_sultanate": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "abbasid_caliphate": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "kingdom_of_georgia": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "cumans": {
+      "independent": "war",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "alliance"
+    },
+    "kipchaks": {
+      "independent": "war",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "chernigov_principality": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "alliance",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "war"
+    },
+    "ryazan_principality": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "alliance",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "war"
+    },
+    "kiev_principality": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "war"
+    },
+    "nicean_empire": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "peace",
+      "kipchaks": "peace",
+      "chernigov_principality": "peace",
+      "ryazan_principality": "peace",
+      "kiev_principality": "peace",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    },
+    "golden_horde": {
+      "independent": "peace",
+      "mongol_empire": "peace",
+      "khwarezmid_empire": "peace",
+      "qara_khitai": "peace",
+      "delhi_sultanate": "peace",
+      "abbasid_caliphate": "peace",
+      "kingdom_of_georgia": "peace",
+      "cumans": "alliance",
+      "kipchaks": "peace",
+      "chernigov_principality": "war",
+      "ryazan_principality": "war",
+      "kiev_principality": "war",
+      "nicean_empire": "peace",
+      "golden_horde": "peace"
+    }
+  },
+  "armies": {
+    "1": {
+      "id": {
+        "nationId": "mongol_empire",
+        "armyId": "1"
+      },
+      "name": "Second Tumen",
+      "locationId": "Hoboksar",
+      "commander": {
+        "name": "Jochi",
+        "birthYear": 1182,
+        "moraleBoostMultiple": 1.2,
+        "moraleRange": 3,
+        "attritionMultiple": 0.85,
+        "unitMeleeBonus": 1.2,
+        "unitRangedBonus": 1.2
+      },
+      "units": [
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Captives"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Catapult"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Catapult"
+        }
+      ]
+    },
+    "2": {
+      "id": {
+        "nationId": "mongol_empire",
+        "armyId": "2"
+      },
+      "locationId": "Altai",
+      "name": "First Tumen",
+      "commander": {
+        "name": "Genghis Khan",
+        "birthYear": 1158,
+        "moraleBoostMultiple": 1.2,
+        "moraleRange": 4,
+        "attritionMultiple": 0.75,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.2
+      },
+      "units": [
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Captives"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Catapult"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Catapult"
+        }
+      ]
+    },
+    "201": {
+      "id": {
+        "nationId": "mongol_empire",
+        "armyId": "201"
+      },
+      "name": "Third Tumen",
+      "locationId": "Barnaul",
+      "commander": {
+        "name": "Batu",
+        "birthYear": 1205,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 0.95,
+        "unitMeleeBonus": 1.1,
+        "unitRangedBonus": 1.1
+      },
+      "units": [
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        },
+        {
+          "nationId": "mongol_empire",
+          "typeId": "Mongolian light cavalry"
+        }
+      ],
+      "siegeMode": false,
+      "mode": 3
+    },
+    "3": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "3"
+      },
+      "locationId": "Turbat-i Jam",
+      "name": "Jalal ad-Din",
+      "commander": {
+        "name": "Jalal ad-Din Mingburnu",
+        "birthYear": 1199,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 0.95,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.0
+      },
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ]
+    },
+    "4": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "4"
+      },
+      "locationId": "Qazvin",
+      "name": "Qazvin Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "5": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "5"
+      },
+      "locationId": "Samarkand",
+      "name": "Samarkand Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "6": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "6"
+      },
+      "locationId": "Bukhara",
+      "name": "Bukhara Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "7": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "7"
+      },
+      "locationId": "Khiva",
+      "name": "Khiva Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "8": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "8"
+      },
+      "locationId": "Merv",
+      "name": "Merv Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "9": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "9"
+      },
+      "locationId": "Nishapur",
+      "name": "Nishapur Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "10": {
+      "id": {
+        "nationId": "khwarezmid_empire",
+        "armyId": "10"
+      },
+      "locationId": "Tabriz",
+      "name": "Tabriz Garrison",
+      "units": [
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "khwarezmid_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "11": {
+      "id": {
+        "nationId": "qara_khitai",
+        "armyId": "11"
+      },
+      "locationId": "Balasaghun",
+      "name": "Qara Khitai Army",
+      "commander": {
+        "name": "Kuchlug",
+        "birthYear": 1170,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 0.85,
+        "unitMeleeBonus": 1.2,
+        "unitRangedBonus": 1.1
+      },
+      "units": [
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Light cavalry"
+        }
+      ]
+    },
+    "12": {
+      "id": {
+        "nationId": "qara_khitai",
+        "armyId": "12"
+      },
+      "locationId": "Balasaghun",
+      "name": "Balasaghun Garrison",
+      "units": [
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Cannon"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "13": {
+      "id": {
+        "nationId": "qara_khitai",
+        "armyId": "13"
+      },
+      "locationId": "Uzgend",
+      "name": "Uzgend Garrison",
+      "units": [
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "14": {
+      "id": {
+        "nationId": "qara_khitai",
+        "armyId": "14"
+      },
+      "locationId": "Kashgar",
+      "name": "Kashgar Garrison",
+      "units": [
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "qara_khitai",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "15": {
+      "id": {
+        "nationId": "delhi_sultanate",
+        "armyId": "15"
+      },
+      "locationId": "Srinagar",
+      "name": "Delhi Army",
+      "commander": {
+        "name": "Shams ud-Din Iltutmish",
+        "birthYear": 1180,
+        "moraleBoostMultiple": 1.1,
+        "moraleRange": 3,
+        "attritionMultiple": 1.0,
+        "unitMeleeBonus": 1.3,
+        "unitRangedBonus": 1.1
+      },
+      "units": [
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Elephants"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Elephants"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Archers"
+        }
+      ]
+    },
+    "151": {
+      "id": {
+        "nationId": "delhi_sultanate",
+        "armyId": "151"
+      },
+      "locationId": "Ghazna",
+      "name": "Ghazna Garrison",
+      "units": [
+        {
+          "nationId": "delhi_sultanate",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false,
+      "mode": 4
+    },
+    "16": {
+      "id": {
+        "nationId": "abbasid_caliphate",
+        "armyId": "16"
+      },
+      "locationId": "Mosul",
+      "name": "Abbasid Army",
+      "units": [
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        },
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Camel riders"
+        }
+      ],
+      "siegeMode": false
+    },
+    "161": {
+      "id": {
+        "nationId": "abbasid_caliphate",
+        "armyId": "161"
+      },
+      "locationId": "Trapezund",
+      "name": "Trapezund Garrison",
+      "units": [
+        {
+          "nationId": "abbasid_caliphate",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false,
+      "mode": 4
+    },
+    "17": {
+      "id": {
+        "nationId": "kingdom_of_georgia",
+        "armyId": "17"
+      },
+      "locationId": "Erivan",
+      "name": "Georgian Army",
+      "commander": {
+        "name": "Queen Tamar",
+        "birthYear": 1160,
+        "moraleBoostMultiple": 1.5,
+        "moraleRange": 4,
+        "attritionMultiple": 0.95,
+        "unitMeleeBonus": 1.5,
+        "unitRangedBonus": 1.0
+      },
+      "units": [
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false
+    },
+    "18": {
+      "id": {
+        "nationId": "kingdom_of_georgia",
+        "armyId": "18"
+      },
+      "locationId": "Tiflis",
+      "name": "Tiflis Garrison",
+      "units": [
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "kingdom_of_georgia",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": true,
+      "mode": 4
+    },
+    "19": {
+      "id": {
+        "nationId": "cumans",
+        "armyId": "19"
+      },
+      "locationId": "Golden Hills",
+      "name": "Cuman Host",
+      "units": [
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "cumans",
+          "typeId": "Light cavalry"
+        }
+      ],
+      "siegeMode": false
+    },
+    "20": {
+      "id": {
+        "nationId": "kipchaks",
+        "armyId": "20"
+      },
+      "locationId": "Nurtay",
+      "name": "Kipchak Host",
+      "units": [
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        },
+        {
+          "nationId": "kipchaks",
+          "typeId": "Light cavalry"
+        }
+      ],
+      "siegeMode": false
+    },
+    "21": {
+      "id": {
+        "nationId": "ryazan_principality",
+        "armyId": "21"
+      },
+      "locationId": "Putivil",
+      "name": "Ryazan Army",
+      "units": [
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "ryazan_principality",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false
+    },
+    "22": {
+      "id": {
+        "nationId": "chernigov_principality",
+        "armyId": "22"
+      },
+      "locationId": "Chernigov",
+      "name": "Chernigov Army",
+      "units": [
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "chernigov_principality",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false
+    },
+    "23": {
+      "id": {
+        "nationId": "kiev_principality",
+        "armyId": "23"
+      },
+      "locationId": "Cherkasy",
+      "name": "Kiev Army",
+      "units": [
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false
+    },
+    "231": {
+      "id": {
+        "nationId": "kiev_principality",
+        "armyId": "231"
+      },
+      "locationId": "Slavutych",
+      "name": "Slavutych Garrison",
+      "units": [
+        {
+          "nationId": "kiev_principality",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false,
+      "mode": 4
+    },
+    "24": {
+      "id": {
+        "nationId": "nicean_empire",
+        "armyId": "24"
+      },
+      "locationId": "Koloneia",
+      "name": "Nicean Army",
+      "units": [
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Heavy cavalry"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Pikemen"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Archers"
+        },
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false
+    },
+    "241": {
+      "id": {
+        "nationId": "nicean_empire",
+        "armyId": "24"
+      },
+      "locationId": "Paphlagonia",
+      "name": "Paphlagonia Garrison",
+      "units": [
+        {
+          "nationId": "nicean_empire",
+          "typeId": "Archers"
+        }
+      ],
+      "siegeMode": false,
+      "mode": 4
+    }
+  },
+  "parameters": {
+    "name": "The Mongol Conquest of Khwarezm",
+    "startYear": 1216,
+    "startSeason": 0,
+    "image": "strategic_map.jpg"
+  },
+  "locales": {
+    "en_GB": {
+      "campaignTitle": "The Mongol Conquest of *Khwarezm*",
+      "menuIntroText": "The year is 1216 and the *Mongol Empire* is on the rise. The Jin dynasty is in disarray in China and the great *Genghis Khan* has turned his attention west towards Qara Khitai, now ruled by the fleeing Naiman prince Kuchlug and the riches of the *Khwarezmid Empire*.",
+      "objectiveText0": "Destroy all Khwarezmid armies",
+      "objectiveText1": "Destroy all Mongol armies"
+    }
+  },
+  "events": [
+    {
+      "nationId": "mongol_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "mongol_empire",
+        "type": "composedConditionAND",
+        "nationsToCapture": [],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": [
+          {
+            "nationId": "mongol_empire",
+            "type": "captureProvinces",
+            "nationsToCapture": [],
+            "armiesToKill": [],
+            "provincesToCapture": [
+              "Balasaghun"
+            ],
+            "subconditions": []
+          },
+          {
+            "nationId": "mongol_empire",
+            "type": "killArmies",
+            "nationsToCapture": [],
+            "armiesToKill": [
+              {
+                "armyId": "11",
+                "nationId": "qara_khitai"
+              }
+            ],
+            "provincesToCapture": [],
+            "subconditions": []
+          }
+        ]
+      },
+      "consequence": {
+        "nationId": "mongol_empire",
+        "type": "composedConsequenceAND",
+        "otherNationId": null,
+        "otherConsequences": [
+          {
+            "nationId": "mongol_empire",
+            "type": "declareWar",
+            "otherNationId": "khwarezmid_empire",
+            "otherConsequences": []
+          },
+          {
+            "nationId": "mongol_empire",
+            "type": "annex",
+            "otherNationId": "qara_khitai",
+            "otherConsequences": []
+          }
+        ]
+      }
+    },
+    {
+      "nationId": "khwarezmid_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "khwarezmid_empire",
+        "type": "composedConditionAND",
+        "nationsToCapture": [],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": [
+          {
+            "nationId": "khwarezmid_empire",
+            "type": "captureProvinces",
+            "nationsToCapture": [],
+            "armiesToKill": [],
+            "provincesToCapture": [
+              "Mosul"
+            ],
+            "subconditions": []
+          },
+          {
+            "nationId": "khwarezmid_empire",
+            "type": "killArmies",
+            "nationsToCapture": [],
+            "armiesToKill": [
+              {
+                "armyId": "16",
+                "nationId": "abbasid_caliphate"
+              }
+            ],
+            "provincesToCapture": [],
+            "subconditions": []
+          }
+        ]
+      },
+      "consequence": {
+        "nationId": "khwarezmid_empire",
+        "type": "composedConsequenceAND",
+        "otherNationId": null,
+        "otherConsequences": [
+          {
+            "nationId": "khwarezmid_empire",
+            "type": "annex",
+            "otherNationId": "abbasid_caliphate",
+            "otherConsequences": []
+          }
+        ]
+      }
+    },
+    {
+      "nationId": "khwarezmid_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "khwarezmid_empire",
+        "type": "captureNations",
+        "nationsToCapture": [
+          "mongol_empire"
+        ],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": []
+      },
+      "consequence": {
+        "nationId": "khwarezmid_empire",
+        "type": "victory",
+        "otherConsequences": []
+      }
+    },
+    {
+      "nationId": "khwarezmid_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "khwarezmid_empire",
+        "type": "captureNations",
+        "nationsToCapture": [
+          "kingdom_of_georgia"
+        ],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": []
+      },
+      "consequence": {
+        "nationId": "khwarezmid_empire",
+        "type": "victory",
+        "otherConsequences": []
+      }
+    },
+    {
+      "nationId": "mongol_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "mongol_empire",
+        "type": "captureNations",
+        "nationsToCapture": [
+          "khwarezmid_empire"
+        ],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": []
+      },
+      "consequence": {
+        "nationId": "mongol_empire",
+        "type": "victory",
+        "otherConsequences": []
+      }
+    },
+    {
+      "nationId": "mongol_empire",
+      "triggered": false,
+      "condition": {
+        "nationId": "mongol_empire",
+        "type": "composedConditionAND",
+        "nationsToCapture": [],
+        "armiesToKill": [],
+        "provincesToCapture": [],
+        "subconditions": [
+          {
+            "nationId": "mongol_empire",
+            "type": "killArmies",
+            "nationsToCapture": [],
+            "armiesToKill": [
+              {
+                "armyId": "2",
+                "nationId": "mongol_empire"
+              }
+            ],
+            "provincesToCapture": [],
+            "subconditions": []
+          },
+          {
+            "nationId": "mongol_empire",
+            "type": "composedConditionNOT",
+            "nationsToCapture": [],
+            "armiesToKill": [],
+            "provincesToCapture": [],
+            "subconditions": [
+              {
+                "nationId": "mongol_empire",
+                "type": "killArmies",
+                "nationsToCapture": [],
+                "armiesToKill": [
+                  {
+                    "armyId": "201",
+                    "nationId": "mongol_empire"
+                  }
+                ],
+                "provincesToCapture": [],
+                "subconditions": []
+              }
+            ]
+          }
+        ]
+      },
+      "consequence": {
+        "nationId": "mongol_empire",
+        "type": "composedConsequenceAND",
+        "otherNationId": null,
+        "otherConsequences": [
+          {
+            "nationId": "mongol_empire",
+            "type": "handoverProvinces",
+            "otherNationId": "golden_horde",
+            "provincesAffected": [
+              "Degelen",
+              "Ulette",
+              "Tenizs",
+              "Astana",
+              "Atbasar",
+              "Kaska",
+              "Rakhmet",
+              "Turgay",
+              "Mugodzhar",
+              "Manatau",
+              "Zhaiyk",
+              "Atyrau",
+              "Itil",
+              "Uzen",
+              "Pecheneg",
+              "Saratov",
+              "Samar",
+              "Sakmara",
+              "Yergen",
+              "Buguruslan"
+            ],
+            "otherConsequences": []
+          },
+          {
+            "nationId": "mongol_empire",
+            "type": "handoverArmies",
+            "otherNationId": "golden_horde",
+            "armiesAffected": [
+              {
+                "armyId": "201",
+                "nationId": "mongol_empire"
+              }
+            ],
+            "otherConsequences": []
+          },
+          {
+            "nationId": "golden_horde",
+            "type": "annex",
+            "otherNationId": "kipchaks",
+            "otherConsequences": []
+          }
+        ]
+      }
+    }
+  ]
+}
