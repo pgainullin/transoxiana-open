@@ -1,0 +1,46 @@
+{
+  "segments": [
+    {
+      "x": 7,
+      "y": 2,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 3
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 3
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "type": "tower",
+      "entranceX": 6,
+      "entranceY": 4
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "type": "gate",
+      "entranceX": 6,
+      "entranceY": 4
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 4
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 4
+    }
+  ]
+}

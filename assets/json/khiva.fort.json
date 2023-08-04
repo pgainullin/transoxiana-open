@@ -1,0 +1,137 @@
+{
+  "segments": [
+    {
+      "x": 8,
+      "y": 5,
+      "type": "tower",
+      "entranceX": 9,
+      "entranceY": 5
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 6
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 6
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "type": "tower",
+      "entranceX": 11,
+      "entranceY": 6
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 6
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "type": "tower",
+      "entranceX": 13,
+      "entranceY": 6
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 13,
+      "entranceY": 6
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "type": "gate",
+      "entranceX": 13,
+      "entranceY": 7
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "type": "wall",
+      "entranceX": 13,
+      "entranceY": 7
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "type": "tower",
+      "entranceX": 13,
+      "entranceY": 8
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 13,
+      "entranceY": 8
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 12,
+      "entranceY": 8
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "type": "gate",
+      "entranceX": 11,
+      "entranceY": 8
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 8
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 9,
+      "entranceY": 8
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "type": "tower",
+      "entranceX": 9,
+      "entranceY": 8
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "type": "gate",
+      "entranceX": 9,
+      "entranceY": 8
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "type": "wall",
+      "entranceX": 9,
+      "entranceY": 7
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 9,
+      "entranceY": 6
+    }
+  ]
+}

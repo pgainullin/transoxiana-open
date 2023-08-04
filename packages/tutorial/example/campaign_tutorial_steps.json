@@ -1,0 +1,88 @@
+[
+  {
+    "title": "This is your empire",
+    "description": "Mongols have recently defeated the Naiman prince Kuchlug who then fled to Qara Khitai. Kuchlug schemed to take power in this Chinese kingdom also known as Western Liao and Mongolian Empire is now at war with them. Further to the west Khwarezm is looking anxiously - confrontation seems inevitable even though the two empires are at peace for now",
+    "svgSrc": "",
+    "alignment": "Alignment.center",
+    "alignToScreen": true,
+    "enumAction": "CampaignTutorialActions.welcome",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": false,
+    "pathShape": "HighlightPathShapes.provincePath",
+    "tutorialMode": "TutorialModes.campaign",
+    "zoomScaleFactor": 8,
+    "cameraMovements": [
+      "CameraMovement.zoomOut",
+      "CameraMovement.toRectCenter"
+    ],
+    "order": 0
+  },
+  {
+    "title": "Help",
+    "description": "This button will show this tutorial anytime",
+    "svgSrc": "",
+    "alignment": "Alignment.topLeft",
+    "enumAction": "CampaignTutorialActions.mapUiHelpButton",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaign",
+    "order": 1
+  },
+  {
+    "title": "Information panel",
+    "description": "This button will show information about selected province with managemnent tools and information about selected army",
+    "svgSrc": "",
+    "alignment": "Alignment.bottomRight",
+    "enumAction": "CampaignTutorialActions.mapUiInfoButton",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaign",
+    "order": 2
+  },
+  {
+    "title": "Status panel",
+    "description": "This panel show info about current season, year. Seasons affect resources (provisions are only harvested in Autumn) and weather (probabilities of Sunny, Clear, Rain, Snow depend on the season as is intuitive). Other than that they just denote turns, such that there are four turns every year.",
+    "svgSrc": "",
+    "alignment": "Alignment.topCenter",
+    "enumAction": "CampaignTutorialActions.mapUiStatusPanel",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaign",
+    "order": 3
+  },
+  {
+    "title": "Next turn and turn mechanics",
+    "description": "give orders in a turn-based mode and then press the hourglass button to play out the results the real-time mode will last a fixed amount of time during which you cannot give any orders. Depending on the Mode your army is in their commanders will take some autonomous decisions after fulfilling your orders if there is time left. once the real time on the campaign map period runs you will be placed in control of any battles that occured in that season involving your troops. After the battles play out you can give orders to your armies in turn-based mode again.",
+    "svgSrc": "",
+    "alignment": "Alignment.topLeft",
+    "enumAction": "CampaignTutorialActions.mapUiNextTurnButton",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.campaign",
+    "order": 5
+  },
+  {
+    "title": "This is your province",
+    "description": "It has population that present a crucial resource for the economy of your empire that ultimately supports your armies.",
+    "svgSrc": "",
+    "alignment": "Alignment.topCenter",
+    "enumAction": "CampaignTutorialActions.yourProvince",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": false,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.provincePath",
+    "tutorialMode": "TutorialModes.campaign",
+    "zoomScaleFactor": 5,
+    "cameraMovements": ["CameraMovement.zoomIn", "CameraMovement.toProvince"],
+    "order": 6
+  }
+]

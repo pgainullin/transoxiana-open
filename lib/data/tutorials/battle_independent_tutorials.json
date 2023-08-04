@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Unit modes",
+    "description": "These buttons appears after unit selection. Hold ground - do not leave the target hex. Attack - find the nearest target and engage them in melee or ranged combat. Bombard - special mode for bombard units which combines Hold ground with order to target city walls in priority.",
+    "alignment": "Alignment.topRight",
+    "enumAction": "BattleIndependentTutorialActions.firstPlayerUnitSelected",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": false,
+    "isBackButtonVisible": false,
+    "selfRemoveAfterClose": true,
+    "tutorialMode": "TutorialModes.battleIndependent",
+    "pathShape": "HighlightPathShapes.buttonRect"
+  }
+]

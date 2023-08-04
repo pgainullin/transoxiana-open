@@ -1,0 +1,188 @@
+{
+  "segments": [
+    {
+      "x": 9,
+      "y": 11,
+      "type": "tower",
+      "entranceX": 10,
+      "entranceY": 11
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "type": "wall",
+      "entranceX": 9,
+      "entranceY": 10
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "type": "gate",
+      "entranceX": 8,
+      "entranceY": 10
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 9
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 9
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "type": "gate",
+      "entranceX": 7,
+      "entranceY": 8
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 7
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "type": "tower",
+      "entranceX": 6,
+      "entranceY": 7
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 7,
+      "entranceY": 7
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "type": "wall",
+      "entranceX": 8,
+      "entranceY": 8
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "type": "tower",
+      "entranceX": 9,
+      "entranceY": 7
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "type": "wall",
+      "entranceX": 10,
+      "entranceY": 7
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "type": "wall",
+      "entranceX": 11,
+      "entranceY": 6
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "type": "tower",
+      "entranceX": 12,
+      "entranceY": 6
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "type": "gate",
+      "entranceX": 12,
+      "entranceY": 6
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "type": "tower",
+      "entranceX": 13,
+      "entranceY": 6
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "type": "wall",
+      "entranceX": 13,
+      "entranceY": 7
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "type": "wall",
+      "entranceX": 14,
+      "entranceY": 8
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "type": "tower",
+      "entranceX": 15,
+      "entranceY": 8
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "type": "gate",
+      "entranceX": 15,
+      "entranceY": 8
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "type": "tower",
+      "entranceX": 14,
+      "entranceY": 9
+    },
+
+
+    {
+      "x": 13,
+      "y": 12,
+      "type": "tower",
+      "entranceX": 12,
+      "entranceY": 13
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "type": "gate",
+      "entranceX": 12,
+      "entranceY": 13
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "type": "tower",
+      "entranceX": 11,
+      "entranceY": 13
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "type": "wall",
+      "entranceX": 11,
+      "entranceY": 13
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "type": "gate",
+      "entranceX": 10,
+      "entranceY": 13
+    }
+  ]
+}

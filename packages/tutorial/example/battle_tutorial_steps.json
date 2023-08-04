@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Surrender",
+    "description": "If you see too many enemies, sometimes it is wise to keep your army save instead of battle.",
+    "svgSrc": "",
+    "alignment": "Alignment.bottomLeft",
+    "enumAction": "BattleTutorialActions.mapUiSurrenderButton",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": false,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.battle",
+    "order": 0
+  },
+  {
+    "title": "Unit modes",
+    "description": "These buttons appears after unit selection. Attack - find the nearest target and engage them in melee or ranged combat. Hold ground - do not leave the target hex. Bombard - special mode for bombard units which combines Hold ground with order to target city walls in priority.",
+    "svgSrc": "",
+    "alignment": "Alignment.topRight",
+    "enumAction": "BattleTutorialActions.mapUiBattleButtons",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.battle",
+    "order": 1
+  },
+  {
+    "title": "Manage buttons",
+    "description": "Skip the battle (will be played by AI) and End turn buttons at the buttom.",
+    "svgSrc": "",
+    "alignment": "Alignment.topLeft",
+    "enumAction": "BattleTutorialActions.mapUiBattleTurnControl",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.battle",
+    "order": 2
+  },
+  {
+    "title": "Status panel",
+    "description": "This panel show info battle name and weather conditions.",
+    "svgSrc": "",
+    "alignment": "Alignment.topCenter",
+    "enumAction": "BattleTutorialActions.mapUiBattleStatusBar",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": false,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.battle",
+    "order": 3
+  }
+]

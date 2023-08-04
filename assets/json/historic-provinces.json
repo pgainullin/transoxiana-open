@@ -1,0 +1,1535 @@
+{
+  "historicProvinces": [
+    {
+      "name": "Altai",
+      "nationId": "mongol_empire",
+      "population": 40000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 50000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Barnaul",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 50000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kulunda",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 50000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Chingil",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 3000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Kokpekty",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Chuguchak",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Semey",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Chingiz",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Aley",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Hoboksar",
+      "nationId": "mongol_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 30000.0,
+      "provisionsStored": 30000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Urgench",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 50000,
+      "provisionsCapacity": 60000,
+      "provisionsStored": 60000,
+      "provisionsYield": 30000
+    },
+    {
+      "name": "Merv",
+      "map": "road.tmx",
+      "fortPath": "fort_small.json",
+      "attackDeploymentPoints": [
+        [2, 14],
+        [2, 4]
+      ],
+      "defenceDeploymentPoints": [[12, 11]],
+      "nationId": "khwarezmid_empire",
+      "population": 70000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nesef",
+      "nationId": "khwarezmid_empire",
+      "population": 10000.0,
+      "provisionsCapacity": 20000.0,
+      "provisionsStored": 20000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Amul",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Khiva",
+      "map": "khiva.tmx",
+      "fortPath": "khiva.fort.json",
+      "attackDeploymentPoints": [
+        [20, 0],
+        [0, 4],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [11, 7]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Bunjiket",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Benaket",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kerminiy",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Rayy",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Damgan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Bistam",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Astrabad",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Sebzevar",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Abiverd",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Tus",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Zemm",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Shahroud",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kelif",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nishapur",
+      "map": "nishapur.tmx",
+      "fortPath": "nishapur.fort.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 60000.0,
+      "provisionsStored": 50000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Balkh",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Herat",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Firuzkuh",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Maymana",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Mugan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Tabriz",
+      "map": "khiva.tmx",
+      "fortPath": "khiva.fort.json",
+      "attackDeploymentPoints": [
+        [20, 0],
+        [0, 4],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [11, 7]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 40000.0,
+      "provisionsCapacity": 60000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Gilan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Qum",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Astarabad",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Gorgan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Dihistan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Garabogazgol",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Maymana",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Yazir",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nesa",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Ferava",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Sarykamysh",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Mizdanqan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Madminiya",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Gurganj",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kath",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Hazarasp",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Umar",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Shapurgan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Dandanaqan",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Andkbud",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Merverrud",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Bukhara",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Samarkand",
+      "map": "samarkand.tmx",
+      "fortPath": "samarkand.fort.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 70000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Serakhs",
+      "nationId": "khwarezmid_empire",
+      "population": 20000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Turbat-i Jam",
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Busheng",
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Qayin",
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Kesh",
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Qazvin",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "khwarezmid_empire",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Uzgend",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 60000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Qocho",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Uzgend",
+      "nationId": "qara_khitai",
+      "population": 10000.0,
+      "provisionsCapacity": 20000.0,
+      "provisionsStored": 20000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Talas",
+      "nationId": "qara_khitai",
+      "population": 10000.0,
+      "provisionsCapacity": 20000.0,
+      "provisionsStored": 20000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Qayaliq",
+      "nationId": "qara_khitai",
+      "population": 40000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Balasaghun",
+      "map": "balasaghun.tmx",
+      "fortPath": "balasaghun.fort.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "qara_khitai",
+      "population": 70000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Osh",
+      "nationId": "qara_khitai",
+      "population": 50000.0,
+      "provisionsCapacity": 90000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Quba",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Akhsiket",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Marghinan",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Khojend",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Barshkhan",
+      "nationId": "qara_khitai",
+      "population": 70000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Shavgar",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Shelji",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Suyab",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Isfjijab",
+      "nationId": "qara_khitai",
+      "population": 10000.0,
+      "provisionsCapacity": 20000.0,
+      "provisionsStored": 20000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Kashgar",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "qara_khitai",
+      "population": 70000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Kopatal",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Almaliq",
+      "nationId": "qara_khitai",
+      "population": 10000.0,
+      "provisionsCapacity": 20000.0,
+      "provisionsStored": 20000.0,
+      "provisionsYield": 20000.0
+    },
+    {
+      "name": "Barkel",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Beshbaliq",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Aksu",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kucha",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Qarasahr",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Uch",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Toksun",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Djensko",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Khotan",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Yarkend",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Keriya",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Niya",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Cherchen",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Charklik",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Loulan",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "specialUnits": ["Cannon"],
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Otar",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Bunket",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nuket",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Tunket",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kasan",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Emil",
+      "nationId": "qara_khitai",
+      "population": 20000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Karamai",
+      "nationId": "qara_khitai",
+      "population": 30000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 70000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Srinagar",
+      "nationId": "delhi_sultanate",
+      "population": 30000.0,
+      "provisionsCapacity": 80000.0,
+      "provisionsStored": 80000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Sialkhot",
+      "nationId": "delhi_sultanate",
+      "population": 30000.0,
+      "provisionsCapacity": 80000.0,
+      "provisionsStored": 80000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Peshawar",
+      "nationId": "delhi_sultanate",
+      "population": 30000.0,
+      "provisionsCapacity": 80000.0,
+      "provisionsStored": 80000.0,
+      "provisionsYield": 40000.0
+    },
+    {
+      "name": "Ghazna",
+      "map": "india.tmx",
+      "fortPath": "india.fort.json",
+      "attackDeploymentPoints": [
+        [12, 1],
+        [1, 10]
+      ],
+      "defenceDeploymentPoints": [[13, 7]],
+      "nationId": "delhi_sultanate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Diyarbakr",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Mosul",
+      "nationId": "abbasid_caliphate",
+      "population": 50000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Hakkari",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Meraga",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Hamadan",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Mus",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Apahunik",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Trapezund",
+      "map": "road.tmx",
+      "fortPath": "fort_small.json",
+      "attackDeploymentPoints": [
+        [2, 14],
+        [2, 4]
+      ],
+      "defenceDeploymentPoints": [[12, 11]],
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kayseri",
+      "nationId": "abbasid_caliphate",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Tiflis",
+      "map": "tbilisi.tmx",
+      "fortPath": "tbilisi.fort.json",
+      "attackDeploymentPoints": [
+        [7, 1],
+        [21, 1],
+        [22, 14]
+      ],
+      "defenceDeploymentPoints": [[12, 11]],
+      "nationId": "kingdom_of_georgia",
+      "population": 40000.0,
+      "provisionsCapacity": 60000.0,
+      "provisionsStored": 50000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Guria",
+      "nationId": "kingdom_of_georgia",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kahetia",
+      "nationId": "kingdom_of_georgia",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Shirvan",
+      "nationId": "kingdom_of_georgia",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Erivan",
+      "nationId": "kingdom_of_georgia",
+      "population": 50000.0,
+      "provisionsCapacity": 60000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Golden Hills",
+      "nationId": "cumans",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Tana",
+      "nationId": "cumans",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Khortytsia",
+      "nationId": "cumans",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Oleshshya",
+      "nationId": "cumans",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kremia",
+      "nationId": "cumans",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kulan-Uynak",
+      "nationId": "kipchaks",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nurtay",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Targyl",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Betpak-Dala",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Egiz-Kara",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Ulytau",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Abay",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Aral-Karakum",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Terekli",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Nurtay",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Arkat",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Baisary",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Atyrau",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Itil",
+      "nationId": "kipchaks",
+      "population": 10000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Chernigov",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Starodub",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Sevsk",
+      "map": "road.tmx",
+      "fortPath": "fort_small.json",
+      "attackDeploymentPoints": [
+        [2, 14],
+        [2, 4]
+      ],
+      "defenceDeploymentPoints": [[12, 11]],
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Chernigov",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Rostislavl",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Smolensk",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Karachev",
+      "nationId": "chernigov_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Putivil",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Voich",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Romen",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Samara",
+      "map": "europe.tmx",
+      "fortPath": "europe.fort.json",
+      "attackDeploymentPoints": [
+        [1, 6],
+        [22, 8]
+      ],
+      "defenceDeploymentPoints": [[12, 7]],
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Oskol",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Kursk",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Grasizhsk",
+      "nationId": "ryazan_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Cherkasy",
+      "nationId": "kiev_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Uman",
+      "nationId": "kiev_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Belkhovychy",
+      "nationId": "kiev_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Khadzhibey",
+      "nationId": "kiev_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Slavutych",
+      "map": "europe.tmx",
+      "fortPath": "europe.fort.json",
+      "attackDeploymentPoints": [
+        [1, 6],
+        [22, 8]
+      ],
+      "defenceDeploymentPoints": [[12, 7]],
+      "nationId": "kiev_principality",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Bithinie",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Paphlagonia",
+      "map": "city.tmx",
+      "fortPath": "fort_city.json",
+      "attackDeploymentPoints": [
+        [15, 0],
+        [15, 15],
+        [0, 15]
+      ],
+      "defenceDeploymentPoints": [
+        [7, 1],
+        [12, 9],
+        [8, 11]
+      ],
+      "nationId": "nicean_empire",
+      "population": 70000.0,
+      "provisionsCapacity": 70000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Galatia",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Charsianon",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Sinop",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Zile",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Koloneia",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    },
+    {
+      "name": "Satala",
+      "nationId": "nicean_empire",
+      "population": 30000.0,
+      "provisionsCapacity": 50000.0,
+      "provisionsStored": 40000.0,
+      "provisionsYield": 30000.0
+    }
+  ]
+}

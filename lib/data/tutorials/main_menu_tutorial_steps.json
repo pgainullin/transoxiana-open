@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Hi {player}! This is a basic intro to campaign",
+    "description": "You will learn how to control provinces, armies and global map mechanics",
+    "svgSrc": "",
+    "alignment": "Alignment.bottomCenter",
+    "enumAction": "MainMenuTutorialActions.mainMenuCampaignButton",
+    "isCloseButtonVisible": false,
+    "isNextButtonVisible": true,
+    "isBackButtonVisible": false,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.mainMenu"
+  },
+  {
+    "title": "This is a basic intro to battle",
+    "description": "You will learn how to manage your army during battle and will take a close look to army units",
+    "svgSrc": "",
+    "alignment": "Alignment.topCenter",
+    "enumAction": "MainMenuTutorialActions.mainMenuBattleButton",
+    "isCloseButtonVisible": true,
+    "isNextButtonVisible": false,
+    "isBackButtonVisible": true,
+    "pathShape": "HighlightPathShapes.buttonRect",
+    "tutorialMode": "TutorialModes.mainMenu",
+    "resetTutorialModePointers": true
+  }
+]

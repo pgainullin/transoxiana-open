@@ -1,0 +1,3 @@
+json_data_path:
+  - "lib/data/tutorials"
+property_with_class_name: "enumAction"
